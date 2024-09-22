@@ -1,0 +1,11 @@
+This project employs a systematic approach to scrape and extract data on tropical storms and hurricanes from the 1975 Pacific hurricane season using Python.
+ Developed in the Spyder editor of Anaconda with Python 3.10.9, the implementation begins by fetching the HTML content of the designated Wikipedia page via the requests library,
+ ensuring robust error handling for potential connection issues. Once the HTML is retrieved, it is parsed using BeautifulSoup. I preferred BeautifulSoup for its ease of use,
+ powerful features for navigating and searching the parse tree, and its ability to handle poorly formatted HTML effectively.
+ This allows for efficient isolation of relevant textual information from paragraph tags and infobox data.
+
+The combined textual data is then processed through the OpenAI language model (LLM), which extracts structured information such as storm names, start and end dates,
+ number of deaths and affected areas, formatted for clarity and consistency. To assess the quality of the extracted data, several metrics are employed, including cross-verification
+ with reliable sources, ensuring adherence to the expected format, and analyzing completeness for any missing entries or inconsistencies. Additionally, logging is integrated throughout
+ the process to document successes and errors, providing insights into the scraping and extraction workflow. By combining automated extraction with manual quality checks,
+ i aim to produce a reliable dataset for further analysis.
