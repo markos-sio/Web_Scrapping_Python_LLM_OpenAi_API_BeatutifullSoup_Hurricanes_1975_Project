@@ -1,7 +1,9 @@
-Overview
+Overview:
+
 This project is designed to extract data from the Wikipedia page for the 1975 Pacific Hurricane Season and structure the relevant information about tropical storms and hurricanes into a CSV file. It leverages web scraping, Natural Language Processing (NLP), and OpenAI's GPT-4 API to identify storm data such as storm names, dates, number of deaths, and affected areas.
 
-Features
+Features:
+
 Web scraping: Fetches and parses HTML content from a Wikipedia page.
 NLP with GPT-4: Uses OpenAI's GPT-4 to interpret and extract structured information about the hurricanes.
 Data handling: Converts extracted hurricane information into a structured format and exports it to a CSV file.
